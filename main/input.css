@@ -1,0 +1,67 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+body .bg-cover {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center top;
+     object-position: center top;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+body .primary-overlay {
+  background-color: rgba(29, 29, 29, 0.85);
+}
+body .bg-custom-gradient {
+  background: #ff3f0b;
+}
+body .contact-form .contact-text p {
+  color: #005270;
+}
+body .contact-form .contact-text2 a:hover {
+  background-color: #61b6fc36;
+  transition: 0.5s;
+}
+body .contact-form .border-color {
+  border-bottom-color: #005270;
+}
+body .banner1 img {
+  width: 100%;
+  height: 600px;
+}
+body .newsletter {
+  background-color: #0095b5;
+}
+body .newsletter .text-space {
+  letter-spacing: 2px;
+}
+body .footer {
+  background-color: #1d1d1d;
+}
+body .footer .footer-list {
+  color: #005270;
+}
+body .footer .footer-text:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+body.azul .primary-overlay {
+  background: rgba(0, 45, 71, 0.85);
+}
+body.azul .manu-color {
+  color: #0095b5;
+}
+body.azul .btn-color {
+  background-color: #0095b5;
+}
+body.azul .bg-custom-gradient {
+  background: #005270;
+  background: linear-gradient(to right, #005270 0%, #0095b5 100%);
+}
+body.azul .footer {
+  background-color: #002d47;
+}/*# sourceMappingURL=input.css.map */
